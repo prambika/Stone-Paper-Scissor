@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  background-color: #325d4b;
+  color: #d8f3dc;
+  height: 5rem;
+  line-height: 5rem;
+}
+.choice {
+  height: 165px;
+  width: 165px;
+}
+.choice:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.player-choices {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+.scores {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+#your-score,
+#comp-score {
+  font-size: 2rem;
+  font-weight: 100px;
+}
+.msg-container {
+  margin-top: 3rem;
+}
+.msg-container:hover {
+  opacity: 0.25;
+  cursor: pointer;
+}
+#msg {
+  background-color: #1b4332;
+  color: #d8f3dc;
+  height: 3rem;
+  font-size: 2rem;
+  display: inline;
+  padding: 1rem;
+  border-radius: 1rem;
+}
